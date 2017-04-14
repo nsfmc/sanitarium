@@ -1,0 +1,15 @@
+{
+  "name": "sanitarium",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deflow": "babel --presets flow --plugins babel-plugin-syntax-jsx,babel-plugin-syntax-object-rest-spread"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
