@@ -7,7 +7,7 @@ this adds a small tool (`deflow`) for stripping flow types from some js, either 
 
 **installing**
 ```shell
-yarn add -G https://github.com/nsfmc/sanitarium
+yarn add -G @nsfmc/sanitarium
 ```
 
 **running**
@@ -20,7 +20,7 @@ pbpaste | deflow
 
 **installing**
 ```shell
-yarn add https://github.com/nsfmc/sanitarium
+yarn add -D @nsfmc/sanitarium
 cd sanitarium
 yarn
 ```
