@@ -10,6 +10,8 @@
     "babel-cli": "^6.24.1",
     "babel-plugin-syntax-object-rest-spread": "^6.13.0",
     "babel-preset-flow": "^6.23.0",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "commander": "^2.9.0",
+    "get-stdin": "^5.0.1"
   }
 }
