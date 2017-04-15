@@ -6,9 +6,6 @@
   "bin": {
     "deflow": "./bin/deflow.js"
   },
-  "scripts": {
-    "deflow": "babel --presets flow --plugins babel-plugin-syntax-jsx,babel-plugin-syntax-object-rest-spread"
-  },
   "dependencies": {
     "babel-cli": "^6.24.1",
     "babel-plugin-syntax-object-rest-spread": "^6.13.0",
