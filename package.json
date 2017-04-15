@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "bin": {
+    "deflow": "./bin/deflow.js"
+  },
   "scripts": {
     "deflow": "babel --presets flow --plugins babel-plugin-syntax-jsx,babel-plugin-syntax-object-rest-spread"
   },
