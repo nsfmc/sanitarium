@@ -1,12 +1,26 @@
 # sanitarium
 
-this is just a small tool for stripping flow types from some js.
+this adds a small tool (`deflow`) for stripping flow types from some js, either stdin or files on disk and outputting to stdout again
 
-## usage
+
+## usage as a binary
 
 **installing**
 ```shell
-git clone https://github.com/nsfmc/sanitarium
+yarn add -G https://github.com/nsfmc/sanitarium
+```
+
+**running**
+```shell
+deflow < path/to/file.js
+pbpaste | deflow
+```
+
+## usage via yarn
+
+**installing**
+```shell
+yarn add https://github.com/nsfmc/sanitarium
 cd sanitarium
 yarn
 ```
